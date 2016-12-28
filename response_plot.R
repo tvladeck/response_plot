@@ -1,3 +1,4 @@
+library(ggmap)
 US <- read.delim("US.txt", header=FALSE)
 
 colnames(US) <- c("country", "zip", "city", "state_long", "state_ab", "region", "ign1", "ign2", "ign3", "lat", "lon", "ign4")
